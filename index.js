@@ -58,4 +58,4 @@ client.connect(err => {
 });
 
 
-app.listen(process.env.DB_PASS || port)
+app.listen(process.env.PORT || port)
